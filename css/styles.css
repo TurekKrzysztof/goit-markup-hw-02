@@ -7,7 +7,7 @@
     --text-color: #212121;
 }
 body {
-    font-family: 'Roboto', 'Verdana', 'Tahoma';
+    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     color: var(--text-color);
     background-color: var(--bodybg-color);
@@ -23,6 +23,7 @@ body {
 }
 .link {
     color: var(--link-color);
+    text-decoration: none;
 }
 .link:hover {
     color: var(--link-hover);
@@ -37,6 +38,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contact:hover {
         color: var(--link-hover);
@@ -78,7 +80,7 @@ li>.button {
     letter-spacing: 0.03em;
 }
 .studio {
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'sans-serif';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -109,12 +111,16 @@ li>.link {
     text-transform: uppercase;
 }
 .content {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 
     color: #757575;
+    list-style: none;
+}
+.content::first-letter,
+.headline2::first-letter {
+    text-transform: uppercase;
 }
 .headline2 {
     font-weight: 700;
@@ -155,14 +161,12 @@ li>.link {
     color: #757575;
 }
 .address {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .contact-footer {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
