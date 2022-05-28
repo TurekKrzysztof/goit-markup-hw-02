@@ -10,15 +10,12 @@ body {
     font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     color: var(--text-color);
-    background-color: var(--bodybg-color);
 }
 .menu {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
-    background-color: #ffffff;
 }
 .links,
 .filters,
@@ -28,13 +25,20 @@ body {
 .lorem-list {
     list-style: none;
 }
-.studio {
+.studio,
+.web {
     font-family: 'Raleway', 'sans-serif';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+}
+.web {
+    color: #2196f3;
+}
+.studio {
+    color: #212121;
 }
 .link,
 .contact {
@@ -61,20 +65,30 @@ body {
 .tittle {
     background-color: #2F303A;
 }
-.portfolio,
-.filter {
-    background-color: #ffffff;
-}
-.click {
+.button1 {
     font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    /* identical to box height */   
+    /* identical to box height */
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    background-color: #2196f3;
+}
+.click {
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height */   
+
+    text-align: center;
+    letter-spacing: 0.03em;
 
     color: var(--link-color);
     background-color: var(--buttonbg-color);
@@ -90,15 +104,6 @@ body {
     color: var(--button-hover);
     background-color: var(--link-hover);
 }
-li>.click {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    /* identical to box height */
-    
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 .headline {
     font-weight: 900;
     font-size: 44px;
@@ -111,7 +116,6 @@ li>.click {
 }
 .lorem-ipsum { 
     letter-spacing: 0.03em;
-    background-color: #ffffff;
 }
 .lorem {
     font-size: 14px;
@@ -131,9 +135,7 @@ li>.click {
 .project-type::first-letter {
     text-transform: uppercase;
 }
-.work {
-    background-color: #ffffff;
-}
+
 .headline2 {
     font-weight: 700;
     font-size: 36px;
@@ -142,7 +144,6 @@ li>.click {
     letter-spacing: 0.03em;
 }
 .description {
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     /* identical to box height */
@@ -152,6 +153,9 @@ li>.click {
 }
 .team {
     background-color: #f5f4fa;
+}
+.name {
+    font-weight: 500;
 }
 .job {
     font-weight: 400;
@@ -178,17 +182,15 @@ li>.click {
 .get-in-touch {
     background-color: #2F303A;
 }
-
-.get-in-touch>.studio a {
+.studio-footer {
+    font-family: 'Raleway', 'sans-serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
     color: #ffffff;
-}
-
-.get-in-touch>.studio a:hover {
-    color: var(--link-hover);
-}
-
-.get-in-touch>.studio a:focus {
-    color: var(--link-hover);
 }
 .location,
 .contact-footer {
