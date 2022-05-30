@@ -78,6 +78,7 @@ body {
 
     color: #FFFFFF;
     background-color: #2196f3;
+    cursor: pointer;
 }
 .click {
     font-family: 'Roboto', 'sans-serif';
